@@ -18,6 +18,11 @@ public class checkCollisions : MonoBehaviour
             other.gameObject.SetActive(false);
         }
 
+        if (other.CompareTag("Obstacle"))
+        {
+            Debug.Log("Zort");
+        }
+
     }
 
     public void AddCoin()

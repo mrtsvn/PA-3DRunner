@@ -1,29 +1,14 @@
 fileFormatVersion: 2
-guid: 8c9c07a84e75b6644936fc2ae9b933c9
+guid: 1a948b99f9032db4a9a49ea63486e8c8
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -1881513580907979650
-    second: FBX_Temp
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Black
-    second: {fileID: 2100000, guid: 210332f5c0a40984aa085a9347c5540e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Color-1
-    second: {fileID: 2100000, guid: ecdeb989a5bebcf4a84e949faa437efb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Color-2
-    second: {fileID: 2100000, guid: b8583fe4bd173fc4f83051c10540cbb0, type: 2}
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -41,7 +26,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -95,32 +80,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: Obstacle-1(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Obstacle-1.000
-      parentName: Obstacle-1(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Obstacle-1.002
-      parentName: Obstacle-1(Clone)
-      position: {x: -0, y: 0.31150496, z: 0}
-      rotation: {x: 0, y: -0.031410765, z: -0, w: 0.9995066}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Obstacle-1.006
-      parentName: Obstacle-1(Clone)
-      position: {x: -0, y: 0.31150496, z: 0}
-      rotation: {x: 0, y: -0.031410765, z: -0, w: 0.9995066}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Obstacle-1.001
-      parentName: Obstacle-1(Clone)
-      position: {x: -0, y: 0.31150496, z: 0}
-      rotation: {x: 0, y: -0.031410765, z: -0, w: 0.9995066}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -129,15 +89,15 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Obstacle-1.000
+    rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
